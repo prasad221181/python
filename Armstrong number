@@ -1,0 +1,17 @@
+n = input("enter the number: ")
+x = 0
+for i in n:
+    x = x + int(i)*int(i)*int(i)
+if x == int(n):
+    print(True)
+else:
+    print(False)
+    
+    
+    
+    
+    output:
+    enter the number: 153
+    True
+    enter the number: 120
+    False
